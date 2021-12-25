@@ -22,7 +22,6 @@ public class stream {
         Double[] d= new Double[]{1.5, 4.6, 88.9, 9.5, 3.0, 10.7};
         Stream<Double> s=Stream.of(d);
         s.forEach(System.out::println);
-
         System.out.println(a.stream().anyMatch(i->i==20));
 
 
